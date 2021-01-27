@@ -1,5 +1,17 @@
 # @keystonejs/access-control
 
+## 6.3.2
+
+### Patch Changes
+
+- [`86b597d41`](https://github.com/keystonejs/keystone/commit/86b597d410c907ed54a4948da438de48e313302f) [#4724](https://github.com/keystonejs/keystone/pull/4724) Thanks [@timleslie](https://github.com/timleslie)! - Rearranged code to have an explicit exports group.
+
+* [`5e22cc765`](https://github.com/keystonejs/keystone/commit/5e22cc765a8f18c467457fd2ba738cd90273c8c5) [#4725](https://github.com/keystonejs/keystone/pull/4725) Thanks [@timleslie](https://github.com/timleslie)! - Refactored calls to `validateGranularConfigTypes` to be more explicit.
+
+- [`b9ec7fff9`](https://github.com/keystonejs/keystone/commit/b9ec7fff9d96ac56e2836543d698cf0b62b5dc8f) [#4723](https://github.com/keystonejs/keystone/pull/4723) Thanks [@timleslie](https://github.com/timleslie)! - Replaced usage of `getType()` with `typeof`.
+
+* [`5ad7c12e8`](https://github.com/keystonejs/keystone/commit/5ad7c12e86573e73e85368076bdc1296f3f69db3) [#4726](https://github.com/keystonejs/keystone/pull/4726) Thanks [@timleslie](https://github.com/timleslie)! - Refactored `parseAccess` and inlined the code from `validateGranularConfigTypes` and `parseAccessCore`.
+
 ## 6.3.1
 
 ### Patch Changes
